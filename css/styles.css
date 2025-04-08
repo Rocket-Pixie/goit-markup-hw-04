@@ -1,0 +1,303 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #434455;
+}
+img{
+    display: block;
+}
+link{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    
+}
+/*----------------------------Хедер сайту------------------------------------*/
+    .main_header{
+    border-bottom: 1px solid #e7e9fc;
+    }
+    .header_nav{
+    display: flex;
+align-items: center;
+gap: 40px;
+    }
+    .headers_box{
+        display: flex;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .nav_link_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+    }
+    .logo_site{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    margin-right: 76px;
+    margin-left: 156px;
+    gap: 40px;
+    display:inline-block;
+    margin-bottom: 16px;
+    } /*Логотип сайту*/
+    .span_studio{
+    color: #2e2f42;
+    } /*Офрмлення "studio"*/
+    .nav_link{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+gap: 40px;
+margin-right: 40px;
+margin-top: 24px;
+align-items: center;
+padding: 24px 0;
+    } 
+    .nav_link:last-child{
+    gap: 0;
+    }
+    .nav_link:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: #404bbf;
+    }
+    .nav_link:focus{
+    font-style: normal;
+    color: #404bbf;
+    }/*Навігація сайту*/
+    .address_contacts_list{
+    display: flex;
+    gap: 40px;
+    }
+    .header_adress{
+    font-style: normal;
+
+    } 
+    .header_contacts{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+margin-top: 24px;
+display: flex;
+gap: 40px;
+    }
+    .header_contacts:hover{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    }
+    .header_contacts:focus{
+    color: #404bbf;
+    } /*Адресна інформація*/
+/*----------------------------Хедер сайту------------------------------------*/
+/*----------------------------Перша секція сторінки------------------------------------*/
+    .button_first_section{
+    background: #4d5ae5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    margin: 0 auto;
+    }
+    .button_first_section:hover{
+
+    background: #404bbf;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    }
+    .button_first_section:focus{
+    background-color: #404BBF;
+    }
+    /*Оформлення кнопки*/
+    .first_section{
+    background-color: #2e2f42;
+padding: 188px 0;
+    }
+    .first_section_header{
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+max-width: 496px;
+align-items: center;
+margin: 0 auto;
+    } 
+    .first_section_box{
+        gap: 472px;
+    }
+     
+/*----------------------------Перша секція сторінки------------------------------------*/
+/*----------------------------Друга секція сторінки------------------------------------*/
+.second_section{
+    background: #f4f4fd;
+    padding: 120px 0;
+} /*Друга секція*/
+.heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+  } /*Хедер*/
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+  } /*Параграф*/
+  .second_section_box{
+    gap: 156px;
+  }
+  .second_section_list{
+    display: flex;
+    gap: 24px;
+    padding: 0;
+  }
+  .second_section_element{
+    width: calc((100% - 72px) / 4);
+  }
+  .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+  }
+  /*----------------------------Друга секція сторінки------------------------------------*/
+  /*----------------------------Третя секція сторінки------------------------------------*/
+.triple_section{
+    background-color: #F4F4FD;
+    padding: 120px 0;
+
+} 
+.triple_section_list{
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+.triple_section_box{
+max-width: 1440px;
+min-height: 732px;
+}
+.header_pages{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.header_pages_list{
+    background-color: #FFFFFF;
+    width: calc(( 100% - 72px) /4 );
+    border-radius: 0px 0px 4px 4px;
+}
+
+.profesianal{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+   /*----------------------------Третя секція сторінки------------------------------------*/
+   /*----------------------------Четверта секція сторінки------------------------------------*/
+.thirdh_section {
+    background: #fff;
+padding: 120px 0;
+margin-bottom: 8px;
+}
+.header_thirdh_hd {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.thirdh_section_box{
+margin-left: 156px;
+}
+.thirdh_section_list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+   padding: 0;
+}
+.thirdh_pages_list{
+    width: calc(( 100% - 48px ) / 3 );
+}
+
+.app_column {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+   
+
+  /*----------------------------Четверта секція сторінки------------------------------------*/
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+} 
+.footer_paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    min-width: 264px;
+    } 
+
+.span_studio_fotter {
+     color: #f4f4fd;
+    } 
+    
+
+
+
