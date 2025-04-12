@@ -30,6 +30,7 @@ gap: 40px;
         display: flex;
         margin: 0 auto;
         padding: 0 15px;
+        box-shadow: 0px 2px 1px rgba(46,47,66,0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46,47,66,0.08)
     }
     .nav_link_list{
     display: flex;
@@ -65,7 +66,20 @@ margin-right: 40px;
 margin-top: 24px;
 align-items: center;
 padding: 24px 0;
+position: relative;
+color: #404BBF;
     } 
+    .nav_link::after{
+        content: "";
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        background-color: #404BBF;
+        border-radius: 2px;
+        transition: color 250ms cubic-bezier(0.4, 0,0.2,1);
+    }
     .nav_link:last-child{
     gap: 0;
     }
@@ -98,6 +112,7 @@ color: #434455;
 margin-top: 24px;
 display: flex;
 gap: 40px;
+transition: color 250ms cubic-bezier(0.4,0,0.2,1);
     }
     .header_contacts:hover{
     font-weight: 400;
@@ -127,6 +142,7 @@ gap: 40px;
     background-color: #4d5ae5;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4,0,0.2,1);
     }
     .button_first_section:hover{
 
@@ -161,6 +177,11 @@ margin: 0 auto;
     } 
     .first_section_box{
         gap: 472px;
+        background-image: linear-gradient(rgba(47,47,66,0.7),rgba(46,47,66,0.7),url(../images/hero-bck.png));
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
      
 /*----------------------------Перша секція сторінки------------------------------------*/
