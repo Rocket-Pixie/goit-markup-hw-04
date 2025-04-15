@@ -17,38 +17,8 @@ ul{
     margin: 0 auto;
     
 }
-[class^="icon-"], [class*=" icon-"] {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
-  
-  /* ==========================================
-  Single-colored icons can be modified like so:
-  .icon-name {
-    font-size: 32px;
-    color: red;
-  }
-  ========================================== */
-  
-  .icon-Icon-1 {
-    width: 2.357421875em;
-  }
-  
-  .icon-Icon-2 {
-    width: 2.357421875em;
-  }
-  
-  .icon-Icon-3 {
-    width: 2.357421875em;
-  }
-  
-  .icon-Icon-4 {
-    width: 2.357421875em;
-  }
+
+    
   
 /*----------------------------Хедер сайту------------------------------------*/
     .main_header{
@@ -196,6 +166,11 @@ transition: color 250ms cubic-bezier(0.4,0,0.2,1);
     /*Оформлення кнопки*/
     .first_section{
     background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bck.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
     }
     .first_section_header{
@@ -212,11 +187,7 @@ margin: 0 auto;
     .first_section_box{
         gap: 472px;
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bck.jpg);
-max-width: 1440px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+      
 
     }
     .icons{
