@@ -290,6 +290,7 @@ min-height: 732px;
 .social_element{
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link {
     width: 100%;
@@ -300,12 +301,14 @@ min-height: 732px;
     align-items: center;
     justify-content: center;
 }
-svg {
+.svg {
     width: 50%;
     height: 50%;
 }
 .social_link_svg{
     fill: #F4F4FD;
+    width: 50%;
+    height: 50%;
 }
 .social-link:hover,
 .social-link:focus {
