@@ -279,7 +279,7 @@ min-height: 732px;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
+     
 }
 .header_pages_list{
     background-color: #FFFFFF;
@@ -290,11 +290,13 @@ min-height: 732px;
 .social_list{
     display: flex;
     justify-content: center;
-    gap: 24px;
 }
 .social_element{
-    width: 40px;
+   margin: 0 auto;
+    max-width: 40px;
+    width: 100%;
     height: 40px;
+    box-sizing: border-box;
     display: block;
 }
 .social-link {
