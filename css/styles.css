@@ -293,7 +293,7 @@ min-height: 732px;
 .social_element{
     width: 40px;
     height: 40px;
-    display: flex;
+    display: block;
 }
 .social-link {
     width: 100%;
@@ -322,6 +322,7 @@ min-height: 732px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
    /*----------------------------Третя секція сторінки------------------------------------*/
    /*----------------------------Четверта секція сторінки------------------------------------*/
 .thirdh_section {
@@ -370,7 +371,7 @@ margin-left: 156px;
     height: 100%;
     width: 100%;
 }
-.thirdh_pages_list:hover .photo_app_list_p {
+.thirdh_pages_list:hover .photo_app_list  {
     transform: translateY(0%);
 }
 .app_column {
