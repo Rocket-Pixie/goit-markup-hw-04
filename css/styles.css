@@ -23,7 +23,9 @@ ul{
 /*----------------------------Хедер сайту------------------------------------*/
     .main_header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46,47,66,0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46,47,66,0.08);
     }
+    
     .header_nav{
     display: flex;
 align-items: center;
@@ -33,7 +35,7 @@ gap: 40px;
         display: flex;
         margin: 0 auto;
         padding: 0 15px;
-        box-shadow: 0px 2px 1px rgba(46,47,66,0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46,47,66,0.08);
+      
     }
     .nav_link_list{
     display: flex;
@@ -71,7 +73,8 @@ align-items: center;
 padding: 24px 0;
 position: relative;
 color: #404BBF;
-transition: color 250ms cubic-bezier(0.4, 0,0.2,1);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     } 
     .nav_link::after{
         content: "";
@@ -343,6 +346,9 @@ margin-left: 156px;
 }
 .thirdh_pages_list{
     width: calc(( 100% - 48px ) / 3 );
+}
+.thirdh_pages_list:hover{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .app_column {
