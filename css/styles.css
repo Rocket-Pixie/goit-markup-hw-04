@@ -293,6 +293,7 @@ min-height: 732px;
 .social_element{
     width: 40px;
     height: 40px;
+    display: flex;
 }
 .social-link {
     width: 100%;
